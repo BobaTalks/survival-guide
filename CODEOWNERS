@@ -1,0 +1,5 @@
+# Auto request reviews from reviewers
+*  @bobatalks/bobaristas
+
+# Frontend reviewers auto assign to client code
+*.{js,css,scss,jsx,ts,tsx}  @bobatalks/FE
