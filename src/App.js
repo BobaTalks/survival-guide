@@ -1,20 +1,22 @@
-import "./App.css";
+import React from "react";
+import MainMenu from "./components/mainMenu/main_menu";
+import Splash from "./pages/splash";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  // useNavigate,
+  createRoutesFromElements,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="splash-page">
-      <div className="background">
-        <div className="splash-title">
-          <h2>Navigating High School and Beyond</h2>
-          <p>
-            We&apos;ve compiled the best advice from experts and seasoned
-            students alike to give you the tools you need to{" "}
-            <span>succeed</span>
-          </p>
-          <button className="button-begin">Let&apos;s get started</button>
-        </div>
-      </div>
-    </div>
+    <Routes>
+      <Route index element={<Splash />}></Route>
+      <Route path="menu" element={<MainMenu />}></Route>
+      {/* <Route path="*" element={<PageNotFound />} /> */}
+    </Routes>
   );
 }
 
