@@ -2,13 +2,7 @@ import React from "react";
 import MainMenu from "./components/mainMenu/main_menu";
 import Splash from "./pages/splash";
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  // useNavigate,
-  createRoutesFromElements,
-} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
