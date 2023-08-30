@@ -3,6 +3,8 @@
 import catFaq from "./images/catFaq.png";
 // import FaqList from "./FaqList";
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 const Faq = () => {
   const [faqs,setFaqs] = useState([{id:1, title:"When should I start applying to universities/colleges?", 
@@ -35,7 +37,7 @@ const Faq = () => {
             {faqs.map((faq) => (
                 <div className ="faq-lists" key = {faq.id}>
                     <h2>{faq.title}
-                    <button onClick={() => toggle(faq.id)}>View</button>
+                    <button className = "chevron" onClick={() => toggle(faq.id)}><FontAwesomeIcon icon= {faChevronDown} style={{color: "#fae9d3",}} /></button>
                     </h2>
                     {clicked === faq.id ? <p>{faq.body}</p> : <></>}
                 </div>
@@ -47,3 +49,4 @@ const Faq = () => {
 };
 
 export default Faq;
+
