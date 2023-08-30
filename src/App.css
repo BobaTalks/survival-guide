@@ -20,12 +20,10 @@
 .catFaq {
     max-width: 264px;
     display: block;
-    margin-left: 32%;
-    /* margin-right: auto; */
-    /* height: auto; */
+    margin-left: auto;
+    margin-right: auto;
     /* height: 172px; */
     padding-top: 40px;
-    /* padding-left: 330px; */
 }
 
 .faq-section h1, .faq-preview h2 {
@@ -54,4 +52,17 @@
     border-bottom: 1px solid rgba(250, 233, 211, 0.70);
     width: 75%;
     padding-top: 6px;
+}
+
+.faq-lists .chevron {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.faq-lists p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding-left: 170px;
+    max-width: 62%;
 }
