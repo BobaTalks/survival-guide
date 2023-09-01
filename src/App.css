@@ -16,6 +16,10 @@
   height: 642px;
   border-radius: 20px;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-section::-webkit-scrollbar {
@@ -37,26 +41,26 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* height: 172px; */
-  padding-top: 40px;
+  padding-top: 130px;
 }
 
 .faq-section h1 {
     font-family: Chewy;
     font-size: 44px;
     font-weight: 400;
-  }
+    padding-right: 120px;
+}
 
 .faq-section h1,
 .question h2 {
   color: #fae9d3;
   text-align: left;
-  padding-left: 170px;
 }
 
 .question {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid rgba(250, 233, 211, 0.7);
 }
 
 .question h2 {
@@ -68,30 +72,14 @@
   width: 570px;
 }
 
-.question h2:after {
-  content: "";
-  display: block;
-  border-bottom: 1px solid rgba(250, 233, 211, 0.7);
-  padding-top: 6px;
-}
-
 .question .btnChevron {
   border: none;
   background: none;
   cursor: pointer;
 }
 
-/* button .btnChevron:after {
-  content: "";
-  display: block;
-  border-bottom: 1px solid rgba(250, 233, 211, 0.7);
-  padding-top: 6px;
-  padding-left: 0;
-} */
-
 .answers p {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  padding-left: 86px;
-  max-width: 672px;
+  max-width: 593px;
 }
