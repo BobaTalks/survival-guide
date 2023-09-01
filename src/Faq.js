@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { faqs } from "./Data";
 import catFaq from "./images/catFaq.png";
 // import FaqList from "./FaqList";
@@ -22,22 +24,24 @@ const Faq = () => {
         <h1>Frequently asked questions</h1>
         <div className="faq-preview">
           {faqs.map((faq) => (
-            <div className="faq-lists" key={faq.id}>
-              <h2>
-                {faq.title}
-                <button className="chevron" onClick={() => toggle(faq.id)}>
+            <div className="faq-main" key={faq.id}>
+              <div className = "question">
+                <h2>{faq.title}</h2>
+                <button className="btnChevron" onClick={() => toggle(faq.id)}>
                   {/* <FontAwesomeIcon 
-                        // icon = {clicked === faq.id ? {faChevronDown}: {faChevronUp}}
-                        icon = {clicked === faq.id? {faChevronDown} : {faChevronUp}}
-                        style={{ color: "#fae9d3" }}
-                      /> */}
+                          // icon = {clicked === faq.id ? {faChevronDown}: {faChevronUp}}
+                          icon = {clicked === faq.id? {faChevronDown} : {faChevronUp}}
+                          style={{ color: "#fae9d3" }}
+                        /> */}
                   <FontAwesomeIcon
                     icon={faChevronDown}
                     style={{ color: "#fae9d3" }}
                   />
                 </button>
-              </h2>
-              {clicked === faq.id ? <p>{faq.body}</p> : null}
+              </div>
+              <div className="answers">
+                <p>{clicked === faq.id ? <p>{faq.body}</p> : null}</p>
+              </div>
             </div>
           ))}
         </div>
