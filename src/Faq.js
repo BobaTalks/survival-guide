@@ -28,13 +28,8 @@ const Faq = () => {
               <div className = "question">
                 <h2>{faq.title}</h2>
                 <button className="btnChevron" onClick={() => toggle(faq.id)}>
-                  {/* <FontAwesomeIcon 
-                          // icon = {clicked === faq.id ? {faChevronDown}: {faChevronUp}}
-                          icon = {clicked === faq.id? {faChevronDown} : {faChevronUp}}
-                          style={{ color: "#fae9d3" }}
-                        /> */}
                   <FontAwesomeIcon
-                    icon={faChevronDown}
+                    icon = {clicked === faq.id ? faChevronUp: faChevronDown}
                     style={{ color: "#fae9d3" }}
                   />
                 </button>
