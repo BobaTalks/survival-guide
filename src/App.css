@@ -18,6 +18,20 @@
   overflow-y: scroll;
 }
 
+.faq-section::-webkit-scrollbar {
+  width: 30px;
+}
+ 
+.faq-section::-webkit-scrollbar-track {
+  background-color: #F2DAC5;
+  border-radius: 20px;
+}
+ 
+.faq-section::-webkit-scrollbar-thumb {
+  background-color: #F6A794;
+  border-radius: 20px;
+}
+
 .catFaq {
   max-width: 264px;
   display: block;
