@@ -13,8 +13,9 @@
 .faq-section {
   background: #a36657;
   max-width: 996px;
-  /* height: 620px; */
+  height: 642px;
   border-radius: 20px;
+  overflow-y: scroll;
 }
 
 .catFaq {
@@ -26,44 +27,57 @@
   padding-top: 40px;
 }
 
+.faq-section h1 {
+    font-family: Chewy;
+    font-size: 44px;
+    font-weight: 400;
+  }
+
 .faq-section h1,
-.faq-preview h2 {
+.question h2 {
   color: #fae9d3;
   text-align: left;
   padding-left: 170px;
 }
 
-.faq-section h1 {
-  font-family: Chewy;
-  font-size: 44px;
-  font-weight: 400;
+.question {
+    display: flex;
+    align-items: baseline;
 }
 
-.faq-lists h2 {
+.question h2 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 45px;
-  padding-bottom: 10px;
+  margin-bottom: 5px;
+  width: 570px;
 }
 
-.faq-lists h2:after {
+.question h2:after {
   content: "";
   display: block;
   border-bottom: 1px solid rgba(250, 233, 211, 0.7);
-  width: 75%;
   padding-top: 6px;
 }
 
-.faq-lists .chevron {
+.question .btnChevron {
   border: none;
   background: none;
   cursor: pointer;
 }
 
-.faq-lists p {
+/* button .btnChevron:after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid rgba(250, 233, 211, 0.7);
+  padding-top: 6px;
+  padding-left: 0;
+} */
+
+.answers p {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  padding-left: 170px;
-  max-width: 62%;
+  padding-left: 86px;
+  max-width: 672px;
 }
