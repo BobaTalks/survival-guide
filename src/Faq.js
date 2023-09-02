@@ -24,12 +24,13 @@ const Faq = () => {
         <div className="faq-preview">
           {faqs.map((faq) => (
             <div className="faq-main" key={faq.id}>
-              <div className = "question">
-                <h2>{faq.title}</h2>
-                <button className="btnChevron" onClick={() => toggle(faq.id)}>
+              <div className = "question">                
+                <button className="toggleFaq" onClick={() => toggle(faq.id)}>
+                  <h2>{faq.title}</h2>
                   <FontAwesomeIcon
                     icon = {clicked === faq.id ? faChevronUp: faChevronDown}
                     style={{ color: "#fae9d3" }}
+                    className="chevron"
                   />
                 </button>
               </div>
