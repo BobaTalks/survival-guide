@@ -45,10 +45,10 @@
 }
 
 .faq-section h1 {
-    font-family: Chewy;
-    font-size: 44px;
-    font-weight: 400;
-    padding-right: 120px;
+  font-family: Chewy;
+  font-size: 44px;
+  font-weight: 400;
+  padding-right: 100px;
 }
 
 .faq-section h1,
@@ -58,8 +58,6 @@
 }
 
 .question {
-  display: flex;
-  align-items: baseline;
   border-bottom: 1px solid rgba(250, 233, 211, 0.7);
 }
 
@@ -72,7 +70,9 @@
   width: 570px;
 }
 
-.question .btnChevron {
+.toggleFaq {
+  display: flex;
+  align-items: baseline;
   border: none;
   background: none;
   cursor: pointer;
