@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { Logo } from "./Logo";
 import { Menu } from "./Menu";
 import "./App.css";
