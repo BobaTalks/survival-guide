@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 const Faq = () => {
+
   const [clicked, setClicked] = useState(false);
 
   const toggle = (id) => {
