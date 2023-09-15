@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { faqs } from "./Data";
 import catFaq from "./images/catFaq.png";
 import { useState } from "react";
@@ -7,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 const Faq = () => {
-
   const [clicked, setClicked] = useState(false);
 
   const toggle = (id) => {
@@ -25,11 +22,11 @@ const Faq = () => {
         <div className="faq-preview">
           {faqs.map((faq) => (
             <div className="faq-main" key={faq.id}>
-              <div className = "question">                
+              <div className="question">
                 <button className="toggleFaq" onClick={() => toggle(faq.id)}>
                   <h2>{faq.title}</h2>
                   <FontAwesomeIcon
-                    icon = {clicked === faq.id ? faChevronUp: faChevronDown}
+                    icon={clicked === faq.id ? faChevronUp : faChevronDown}
                     style={{ color: "#fae9d3" }}
                     className="chevron"
                   />
