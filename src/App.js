@@ -1,11 +1,10 @@
-import "./App.css";
-import Faq from "./pages/faq/Faq";
-import Housing from "./pages/housing/Housing";
+import './App.css';
+import Faq from './pages/faq/Faq';
 
 function App() {
   return (
     <div className="App">
-      <Housing />
+      <Faq />
     </div>
   );
 }
