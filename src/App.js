@@ -1,5 +1,5 @@
-import Housing from "./pages/housing";
-import "./App.css";
+import Housing from './pages/housing/Housing';
+import './App.css';
 
 function App() {
   return (
