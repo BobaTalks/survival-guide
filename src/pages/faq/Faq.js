@@ -1,9 +1,9 @@
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
-import catFaq from '../../images/catFaq.png';
-import './Faq.css';
-import { faqs } from './faqs';
+import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import catFaq from "../../images/catFaq.png";
+import "./Faq.css";
+import { faqs } from "./faqs";
 
 const Faq = () => {
   const [clicked, setClicked] = useState(false);
@@ -28,13 +28,17 @@ const Faq = () => {
                   <h2>{faq.title}</h2>
                   <FontAwesomeIcon
                     icon={clicked === faq.id ? faChevronUp : faChevronDown}
-                    style={{ color: '#fae9d3' }}
+                    style={{ color: "#fae9d3" }}
                     className="chevron"
                   />
                 </button>
               </div>
               <div className="answers">
-                <p>{clicked === faq.id ? <div dangerouslySetInnerHTML={{ __html: faq.body }} /> : null}</p>
+                <p>
+                  {clicked === faq.id ? (
+                    <div dangerouslySetInnerHTML={{ __html: faq.body }} />
+                  ) : null}
+                </p>
               </div>
             </div>
           ))}
