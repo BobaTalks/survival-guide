@@ -1,4 +1,5 @@
-import Housing from './pages/housing';
+import Housing from "./pages/housing";
+import "./App.css";
 
 function App() {
   return (
