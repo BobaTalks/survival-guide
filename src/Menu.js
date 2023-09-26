@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Menu = () => {
   return (
@@ -49,22 +49,8 @@ const Shelf = ({ children }) => {
 
 const Divider = () => {
   return (
-    <svg
-      className="line"
-      width="174"
-      height="6"
-      viewBox="0 0 174 6"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        id="Line 1"
-        d="M3 3H171"
-        stroke="black"
-        strokeOpacity="0.5"
-        strokeWidth="5"
-        strokeLinecap="round"
-      />
+    <svg className="line" width="174" height="6" viewBox="0 0 174 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path id="Line 1" d="M3 3H171" stroke="black" strokeOpacity="0.5" strokeWidth="5" strokeLinecap="round" />
     </svg>
   );
 };
