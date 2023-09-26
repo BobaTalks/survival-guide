@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 
 body,
 h1,
@@ -16,13 +16,8 @@ li {
 }
 
 .bgPage {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(255, 255, 255, 0.4) 100%
-    ),
-    linear-gradient(0deg, #000 0%, #000 100%), url(./images/bg-image.png),
-    lightgray 50% / cover no-repeat;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+    linear-gradient(0deg, #000 0%, #000 100%), url(./images/bg-image.png), lightgray 50% / cover no-repeat;
   background-blend-mode: normal, saturation, normal;
 }
 
@@ -88,7 +83,6 @@ li {
 }
 
 .mainBox {
-
   display: flex;
   width: 1259px;
   height: 1020px;
@@ -100,8 +94,6 @@ li {
   background: #878787;
   margin-top: 49px;
   margin-bottom: 48px;
-
-
 }
 
 .container {
@@ -193,7 +185,6 @@ li {
   background: #f6a794;
 }
 
-
 .cookies {
   display: flex;
   justify-content: center;
@@ -202,6 +193,6 @@ li {
   width: 147px;
   height: 143px;
   position: absolute;
-  right: 44px; 
+  right: 44px;
   top: 41px;
 }
