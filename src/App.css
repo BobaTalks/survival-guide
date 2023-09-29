@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+=======
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
 
 body,
 h1,
@@ -15,6 +19,7 @@ li {
   padding: 0px;
 }
 
+<<<<<<< HEAD
 .bgPage {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
     linear-gradient(0deg, #000 0%, #000 100%), url(./images/bg-image.png), lightgray 50% / cover no-repeat;
@@ -26,10 +31,37 @@ li {
   display: flex;
   width: 358px;
   height: 657px;
+=======
+html,
+body,
+#root,
+.bgPage {
+  height: 100%;
+}
+
+.bgPage {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  background-size: cover;
+  background: url(./images/bg-image.svg), lightgray 50% / cover no-repeat;
+}
+
+.Menu {
+  display: flex;
+  width: 358px;
+  height: 652px;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
   padding: 30px 0px;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+<<<<<<< HEAD
+=======
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fae9d3;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
 }
 
 .Menu > p {
@@ -71,6 +103,15 @@ li {
   height: 320px;
 }
 
+<<<<<<< HEAD
+=======
+.internImage {
+  width: 652px;
+  height: 301px;
+  background: url(./images/Interns\ 1.svg), lightgray 50% / cover no-repeat;
+}
+
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
 .sidebar {
   display: inline-flex;
   flex-direction: column;
@@ -84,14 +125,22 @@ li {
 
 .mainBox {
   display: flex;
+<<<<<<< HEAD
   width: 1259px;
+=======
+  max-width: 1259px;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
   height: 1020px;
   padding: 20px;
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 20px;
+<<<<<<< HEAD
   background: #878787;
+=======
+  background: #fae9d3;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
   margin-top: 49px;
   margin-bottom: 48px;
 }
@@ -101,22 +150,47 @@ li {
   gap: 20px;
 }
 
+<<<<<<< HEAD
 .recipe {
   display: flex;
   padding: 0px 150px;
   padding-top: 60px;
   padding-bottom: 10px;
+=======
+.secondaryContainer {
+  display: flex;
+  max-height: 6534px;
+  padding: 60px 150px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.recipe {
+  display: flex;
+  padding: 60px 130px;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
   flex-direction: column;
   align-items: center;
   flex: 1 0 0;
   background: #fff;
   position: relative;
+<<<<<<< HEAD
 }
 
 .recipe_header {
   align-self: stretch;
   color: #000;
   font-family: Knewave;
+=======
+  border-radius: 30px;
+}
+
+.recipe_header {
+  color: #000;
+  width: 652px;
+  font-family: Chewy;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -125,6 +199,7 @@ li {
 
 .recipe_subHeader {
   color: #000;
+<<<<<<< HEAD
   font-family: Inter;
   font-size: 36px;
   font-style: normal;
@@ -142,17 +217,40 @@ li {
   font-weight: 800;
   line-height: normal;
   margin-bottom: 25px;
+=======
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.recipe_container {
+  display: flex;
+  width: 652px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
 }
 
 .recipe_text {
   color: #000;
+<<<<<<< HEAD
   align-self: stretch;
   font-family: Inter;
+=======
+  font-family: Poppins;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+<<<<<<< HEAD
   margin: 25px 0px;
+=======
+  align-self: stretch;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
 }
 
 .recipe_list {
@@ -190,9 +288,15 @@ li {
   justify-content: center;
   align-items: flex-end;
   gap: 10px;
+<<<<<<< HEAD
   width: 147px;
   height: 143px;
   position: absolute;
   right: 44px;
   top: 41px;
+=======
+  position: absolute;
+  right: 71px;
+  top: 44px;
+>>>>>>> 50cbf0e963cefbbf266482399fe7ec44ef2a5092
 }
