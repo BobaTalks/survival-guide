@@ -15,7 +15,7 @@ const APIB = () => {
         <div className="recipe recipe_scroll">
           <Cookies />
 
-          <div>
+          <div >
             <h2 className="recipe_header">AP vs IB vs College Classes</h2>
             <div className="recipe_text">
               So what is the difference between AP vs IB classes? What does it mean if I take college classes while I am
