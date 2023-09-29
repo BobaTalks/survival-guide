@@ -1,4 +1,4 @@
-import logoImage from './images/BT Logo.svg';
+import logoImage from '../images/BT Logo.svg';
 import React from 'react';
 export const Logo = () => {
   return (

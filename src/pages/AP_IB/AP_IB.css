@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 
 body,
 h1,
@@ -15,32 +15,21 @@ li {
   padding: 0px;
 }
 
-html,
-body,
-#root,
 .bgPage {
-  height: 100%;
-}
-
-.bgPage {
-  width: 1728px;
-  height: 1117px;
-  flex-shrink: 0;
-  background-size: cover;
-  background: url(./images/bg-image.svg), lightgray 50% / cover no-repeat;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%),
+    linear-gradient(0deg, #000 0%, #000 100%), url(./images/bg-image.png), lightgray 50% / cover no-repeat;
+  background-blend-mode: normal, saturation, normal;
 }
 
 .Menu {
+  background: #fff;
   display: flex;
   width: 358px;
-  height: 652px;
+  height: 657px;
   padding: 30px 0px;
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  flex-shrink: 0;
-  border-radius: 20px;
-  background: #fae9d3;
 }
 
 .Menu > p {
@@ -82,12 +71,6 @@ body,
   height: 320px;
 }
 
-.internImage {
-  width: 652px;
-  height: 301px;
-  background: url(./images/Interns\ 1.svg), lightgray 50% / cover no-repeat;
-}
-
 .sidebar {
   display: inline-flex;
   flex-direction: column;
@@ -101,14 +84,14 @@ body,
 
 .mainBox {
   display: flex;
-  max-width: 1259px;
+  width: 1259px;
   height: 1020px;
   padding: 20px;
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 20px;
-  background: #fae9d3;
+  background: #878787;
   margin-top: 49px;
   margin-bottom: 48px;
 }
@@ -118,30 +101,22 @@ body,
   gap: 20px;
 }
 
-.secondaryContainer {
-  display: flex;
-  max-height: 6534px;
-  padding: 60px 150px;
-  flex-direction: column;
-  align-items: center;
-  flex: 1 0 0;
-}
-
 .recipe {
   display: flex;
-  padding: 60px 130px;
+  padding: 0px 150px;
+  padding-top: 60px;
+  padding-bottom: 10px;
   flex-direction: column;
   align-items: center;
   flex: 1 0 0;
   background: #fff;
   position: relative;
-  border-radius: 30px;
 }
 
 .recipe_header {
+  align-self: stretch;
   color: #000;
-  width: 652px;
-  font-family: Chewy;
+  font-family: Knewave;
   font-size: 64px;
   font-style: normal;
   font-weight: 400;
@@ -150,29 +125,34 @@ body,
 
 .recipe_subHeader {
   color: #000;
-  font-family: Poppins;
+  font-family: Inter;
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
   line-height: normal;
+  margin-bottom: 25px;
 }
 
-.recipe_container {
-  display: flex;
-  width: 652px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 25px;
+.recipe_bold {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 25px;
 }
 
 .recipe_text {
   color: #000;
-  font-family: Poppins;
+  align-self: stretch;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  align-self: stretch;
+  margin: 25px 0px;
 }
 
 .recipe_list {
@@ -210,7 +190,9 @@ body,
   justify-content: center;
   align-items: flex-end;
   gap: 10px;
+  width: 147px;
+  height: 143px;
   position: absolute;
-  right: 71px;
-  top: 44px;
+  right: 44px;
+  top: 41px;
 }
