@@ -27,7 +27,7 @@ body,
   height: 1117px;
   flex-shrink: 0;
   background-size: cover;
-  background: url(./images/bg-image.svg), lightgray 50% / cover no-repeat;
+  background: url(../../images/bg-image.svg), lightgray 50% / cover no-repeat;
 }
 
 .Menu {
@@ -85,7 +85,7 @@ body,
 .internImage {
   width: 652px;
   height: 301px;
-  background: url(./images/Interns\ 1.svg), lightgray 50% / cover no-repeat;
+  background: url(../../images/Interns\ 1.svg), lightgray 50% / cover no-repeat;
 }
 
 .sidebar {
@@ -210,9 +210,7 @@ body,
   justify-content: center;
   align-items: flex-end;
   gap: 10px;
-  width: 147px;
-  height: 143px;
   position: absolute;
-  right: 44px;
-  top: 41px;
+  right: 71px;
+  top: 44px;
 }
