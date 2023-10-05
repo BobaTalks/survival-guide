@@ -8,7 +8,12 @@ import { faqs } from './faqs';
 const Faq = () => {
   const [clicked, setClicked] = useState(false);
 
-  setClicked((id) => (clicked === id ? null : id));
+  const toggle = (id) => {
+    if (clicked === id) {
+      return setClicked(null);
+    }
+    setClicked(id);
+  };
 
   return (
     <div className="border">
@@ -19,7 +24,7 @@ const Faq = () => {
           {faqs.map((faq) => (
             <div className="faq-main" key={faq.id}>
               <div className="question">
-                <button className="toggleFaq" onClick={() => setClicked(faq.id)}>
+                <button className="toggleFaq" onClick={() => toggle(faq.id)}>
                   <h2>{faq.title}</h2>
                   <FontAwesomeIcon
                     icon={clicked === faq.id ? faChevronUp : faChevronDown}
