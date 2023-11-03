@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body,
+#root,
+.bgPage {
+  height: 100%;
+}
+
+.bgPage {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  background-size: cover;
+  background: url(../../images/bg-image.svg), lightgray 50% / cover no-repeat;
+}
+
+.Menu {
+  display: flex;
+  width: 358px;
+  height: 652px;
+  padding: 30px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fae9d3;
+}
+
+.Menu > p {
+  align-self: stretch;
+  color: #000;
+  text-align: center;
+  font-family: Knewave;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.line {
+  display: flex;
+  align-self: flex-start;
+}
+
+.shelf {
+  display: flex;
+  padding: 16px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  margin: 3px;
+}
+
+.shelf_text {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  width: 327px;
+  height: 320px;
+}
+
+.internImage {
+  width: 652px;
+  height: 301px;
+  background: url(../../images/Interns\ 1.svg), lightgray 50% / cover no-repeat;
+}
+
+.sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-left: 20px;
+  padding-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBox {
+  display: flex;
+  max-width: 1259px;
+  height: 1020px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fae9d3;
+  margin-top: 49px;
+  margin-bottom: 48px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.secondaryContainer {
+  display: flex;
+  max-height: 6534px;
+  padding: 60px 150px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.recipe {
+  display: flex;
+  padding: 60px 130px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+  background: #fff;
+  position: relative;
+  border-radius: 30px;
+}
+
+.recipe_header {
+  color: #000;
+  width: 652px;
+  font-family: Chewy;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.recipe_subHeader {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.recipe_container {
+  display: flex;
+  width: 652px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.recipe_text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.recipe_list {
+  align-self: stretch;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.recipe_scroll {
+  overflow: auto;
+  /* Scroll thumb and track colors for Firefox */
+}
+
+.recipe_scroll::-webkit-scrollbar {
+  width: 46px; /* Width of scrollbar for Chrome, Safari, and Opera */
+}
+
+.recipe_scroll::-webkit-scrollbar-track {
+  background: #f2dac5; /* Track color for Chrome, Safari, and Opera */
+  border-radius: 100px;
+}
+
+.recipe_scroll::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #f6a794;
+}
+
+.cookies {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  position: absolute;
+  right: 71px;
+  top: 44px;
+}
