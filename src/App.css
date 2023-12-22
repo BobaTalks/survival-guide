@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "poppin";
-  src: local("poppin"), url("./fonts/Poppins-Regular.ttf") format("truetype");
-  font-family: "chewy";
-  src: local("chewy"), url("./fonts/Chewy-Regular.ttf") format("truetype");
+  font-family: 'poppin';
+  src: local('poppin'), url('./fonts/Poppins-Regular.ttf') format('truetype');
+  font-family: 'chewy';
+  src: local('chewy'), url('./fonts/Chewy-Regular.ttf') format('truetype');
 }
 
 .splash-page {
@@ -15,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../src/img/update.png");
+  background-image: url('../src/images/update.png');
   background-size: cover;
   background-position: center bottom -3em;
   overflow: hidden;
@@ -26,7 +26,7 @@
 
 .splash-title h2 {
   color: #003;
-  font-family: "chewy";
+  font-family: 'chewy';
   font-size: 2rem;
   font-weight: 400;
   max-width: 10em;
@@ -36,7 +36,7 @@
 
 .splash-title p {
   color: #003;
-  font-family: "poppins";
+  font-family: 'poppins';
   font-size: 1rem;
   font-weight: 500;
   max-width: 21em;
@@ -44,7 +44,7 @@
 
 .splash-title span {
   color: #003;
-  font-family: "poppins";
+  font-family: 'poppins';
   font-size: 1.25rem;
   font-style: italic;
   font-weight: 700;
@@ -57,7 +57,7 @@
   width: 20.0625rem;
   height: 4.4375rem;
   color: #003;
-  font-family: "poppin";
+  font-family: 'poppin';
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 50%;
@@ -103,7 +103,7 @@ button:hover {
 /* Media query for small screens */
 @media (max-width: 768px) {
   .background {
-    background-image: url("../src/img/splash_mobile_ver.png");
+    background-image: url('../src/images/splash_mobile_ver.png');
     background-position: center;
   }
 
