@@ -1,8 +1,12 @@
+import Housing from './pages/housing/Housing';
 import './App.css';
-import Internship from './pages/Internship';
 
-const App = () => {
-  return <Internship />;
-};
+function App() {
+  return (
+    <div className="App">
+      <Housing />
+    </div>
+  );
+}
 
 export default App;
