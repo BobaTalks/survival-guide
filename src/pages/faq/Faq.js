@@ -4,6 +4,7 @@ import { useState } from 'react';
 import catFaq from '../../images/catFaq.png';
 import './Faq.css';
 import { faqs } from './faqs';
+import ReactMarkdown from 'react-markdown';
 
 const Faq = () => {
   const [clicked, setClicked] = useState(false);
@@ -34,7 +35,7 @@ const Faq = () => {
                 </button>
               </div>
               <div className="answers">
-                <p>{clicked === faq.id ? <div dangerouslySetInnerHTML={{ __html: faq.body }} /> : null}</p>
+                <p>{clicked === faq.id ? <ReactMarkdown>{faq.body}</ReactMarkdown> : null}</p>
               </div>
             </div>
           ))}
