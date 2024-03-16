@@ -5,6 +5,7 @@ import './Internship.css';
 import { MainBox } from '../../components/MainBox';
 import { Cookies } from '../../components/Cookies';
 import { InternImage } from './InternImage';
+import React from 'react';
 
 const Internship = () => {
   return (

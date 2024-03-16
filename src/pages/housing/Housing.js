@@ -1,6 +1,7 @@
 import './Housing.css';
 import housingImg from '../../images/housingImg.png';
 import flag from '../../images/US.png';
+import React from 'react';
 
 const Housing = () => {
   return (

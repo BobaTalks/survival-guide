@@ -1,10 +1,10 @@
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
 import catFaq from '../../images/catFaq.png';
 import './Faq.css';
 import { faqs } from './faqs';
 import ReactMarkdown from 'react-markdown';
+import React, { useState } from 'react';
 
 const Faq = () => {
   const [clicked, setClicked] = useState(false);
