@@ -1,6 +1,6 @@
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import catFaq from '../../images/catFaq.png';
 import './Faq.css';
 import { faqs } from './faqs';
@@ -17,6 +17,7 @@ const Faq = () => {
   };
 
   return (
+    <>
     <div className="border">
       <div className="faq-section">
         <img src={catFaq} className="catFaq" alt="bobaCat" />
@@ -42,6 +43,7 @@ const Faq = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
