@@ -2,6 +2,7 @@ import '../../App.css';
 import { Cookies } from '../../components/Cookies';
 import { Logo } from '../../components/Logo';
 import { Menu } from '../../components/Menu';
+import React from 'react';
 
 const APIB = () => {
   return (
